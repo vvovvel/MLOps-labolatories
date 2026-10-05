@@ -1,0 +1,19 @@
+[project]
+name = "mlops-labolatories"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sonia", email = "sweiss@student.agh.edu.pl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pre-commit>=4.6.2",
+]
+
+[project.scripts]
+mlops-labolatories = "mlops_labolatories:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
